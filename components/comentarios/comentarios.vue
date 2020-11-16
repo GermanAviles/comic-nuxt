@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="comentarios">
     <div v-for="(comentario, i) of comentarios" :key="i+1" class="comentario">
       <div class="header-comentario">
         <span class="titulo"> {{ comentario.titulo }} </span>
